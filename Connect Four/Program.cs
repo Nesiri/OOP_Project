@@ -1,10 +1,13 @@
-﻿namespace Connect_Four
+﻿using System;
+
+namespace Connect_Four
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-           
+            Console.WriteLine("nesru");
+
         }
     }
 }
