@@ -86,7 +86,7 @@ namespace Connect_Four
             Symbol = symbol;
         }
 
-        public virtual  int MakeMove()
+        public virtual int MakeMove()
         {
             return 1;
         }
@@ -109,6 +109,7 @@ namespace Connect_Four
                 {
                     // Valid input
                     Console.WriteLine($"You entered column {column}");
+                    return column;
                 }
                 else
                 {
@@ -156,7 +157,7 @@ namespace Connect_Four
 
         public bool DropPiece(int col, char symbol)
         {
-            if (col < 0 || col >= Cols) return false;
+            if (col < 0 || col >= Cols) return false; // Invalid column input
 
             for (int row = Rows - 1; row >= 0; row--)
             {
@@ -169,18 +170,73 @@ namespace Connect_Four
             return false;  // Column full
         }
 
+
         public bool CheckWin(char symbol)
         {
-           
+            // Check horizontal
+            for (int row = 0; row < Rows; row++)
+            {
+                for (int col = 0; col < Cols - 3; col++)
+                {
+                    if (grid[row, col] == symbol && grid[row, col + 1] == symbol &&
+                        grid[row, col + 2] == symbol && grid[row, col + 3] == symbol)
+                    {
+                        return true;
+                    }
+                }
+            }
 
-            return false;
+            // Check vertical
+            for (int col = 0; col < Cols; col++)
+            {
+                for (int row = 0; row < Rows - 3; row++)
+                {
+                    if (grid[row, col] == symbol && grid[row + 1, col] == symbol &&
+                        grid[row + 2, col] == symbol && grid[row + 3, col] == symbol)
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            // Check diagonal (bottom-left to top-right)
+            for (int row = 3; row < Rows; row++)
+            {
+                for (int col = 0; col < Cols - 3; col++)
+                {
+                    if (grid[row, col] == symbol && grid[row - 1, col + 1] == symbol &&
+                        grid[row - 2, col + 2] == symbol && grid[row - 3, col + 3] == symbol)
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            // Check diagonal (top-left to bottom-right)
+            for (int row = 0; row < Rows - 3; row++)
+            {
+                for (int col = 0; col < Cols - 3; col++)
+                {
+                    if (grid[row, col] == symbol && grid[row + 1, col + 1] == symbol &&
+                        grid[row + 2, col + 2] == symbol && grid[row + 3, col + 3] == symbol)
+                    {
+                        return true;
+                    }
+                }
+            }
+
+            return false; // Return false if no win found
         }
 
         public bool IsFull()
         {
-           
-            return true;
+            for (int col = 0; col < Cols; col++)
+            {
+                if (grid[0, col] == '.') return false; // Not full if there's an empty spot
+            }
+            return true; // Else it is full
         }
+
 
         public bool IsColumnOpen(int col)
         {
@@ -189,8 +245,8 @@ namespace Connect_Four
 
         public int GetNextOpenRow(int col)
         {
-            
-            return -1; 
+
+            return -1;
         }
     }
 
