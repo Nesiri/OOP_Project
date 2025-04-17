@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connect Four\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\ConnectFour.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connect Four\\ConnectFour.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\AIPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connect Four\\AIPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\Board.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connect Four\\Board.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\GameBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connect Four\\GameBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\HumanPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connect Four\\HumanPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\PlayerBase.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Connect Four\\PlayerBase.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConnectFour.exe",
+              "DocumentMoniker": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\ConnectFour.exe",
+              "RelativeDocumentMoniker": "Connect Four\\ConnectFour.exe",
+              "ToolTip": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\ConnectFour.exe",
+              "RelativeToolTip": "Connect Four\\ConnectFour.exe",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000165|",
+              "WhenOpened": "2025-04-17T21:08:58.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameBase.cs",
+              "DocumentMoniker": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\GameBase.cs",
+              "RelativeDocumentMoniker": "Connect Four\\GameBase.cs",
+              "ToolTip": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\GameBase.cs",
+              "RelativeToolTip": "Connect Four\\GameBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:54:07.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\Board.cs",
+              "RelativeDocumentMoniker": "Connect Four\\Board.cs",
+              "ToolTip": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\Board.cs",
+              "RelativeToolTip": "Connect Four\\Board.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:52:53.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AIPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\AIPlayer.cs",
+              "RelativeDocumentMoniker": "Connect Four\\AIPlayer.cs",
+              "ToolTip": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\AIPlayer.cs",
+              "RelativeToolTip": "Connect Four\\AIPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:31:16.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HumanPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\HumanPlayer.cs",
+              "RelativeDocumentMoniker": "Connect Four\\HumanPlayer.cs",
+              "ToolTip": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\HumanPlayer.cs",
+              "RelativeToolTip": "Connect Four\\HumanPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:31:07.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\Program.cs",
+              "RelativeDocumentMoniker": "Connect Four\\Program.cs",
+              "ToolTip": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\Program.cs",
+              "RelativeToolTip": "Connect Four\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:30:35.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerBase.cs",
+              "DocumentMoniker": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\PlayerBase.cs",
+              "RelativeDocumentMoniker": "Connect Four\\PlayerBase.cs",
+              "ToolTip": "C:\\Users\\ollie\\OneDrive\\Desktop\\OOP_Project\\Connect Four\\PlayerBase.cs",
+              "RelativeToolTip": "Connect Four\\PlayerBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T20:30:35.221Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
