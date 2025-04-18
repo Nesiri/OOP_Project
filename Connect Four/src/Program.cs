@@ -1,11 +1,7 @@
 ﻿using System;
 
-// Team: Softwerewolves                        - This is terrible I know
-// Developers: Nesru Abbamilki, Ollie Howes
-
 namespace Connect_Four
 {
-    // Final game setup - entry point
     class Program
     {
         static void Main()
@@ -23,18 +19,21 @@ namespace Connect_Four
                 switch (choice)
                 {
                     case "1":
-                        Console.WriteLine("Enter Player 1's name: ");
+                        Console.Write("Enter Player 1's name: ");
                         string p1Name = Console.ReadLine();
-                        Console.WriteLine("Enter Player 2's name: ");
+                        Console.Write("Enter Player 2's name: ");
                         string p2Name = Console.ReadLine();
                         StartGame(new HumanPlayer(p1Name, 'X'), new HumanPlayer(p2Name, 'O'));
                         break;
+
                     case "2":
                         StartGame(new HumanPlayer("You", 'X'), new AIPlayer("Computer", 'O'));
                         break;
+
                     case "3":
                         Console.WriteLine("Goodbye!");
                         return;
+
                     default:
                         Console.WriteLine("Invalid selection. Try again.");
                         break;
@@ -42,7 +41,7 @@ namespace Connect_Four
             }
         }
 
-        static void StartGame(PlayerBase player1, PlayerBase player2)
+        static void StartGame(IPlayer player1, IPlayer player2)
         {
             GameBase game = new GameBase(player1, player2);
             game.Play();

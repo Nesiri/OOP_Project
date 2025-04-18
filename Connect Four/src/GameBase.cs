@@ -6,13 +6,13 @@ namespace Connect_Four
     class GameBase
     {
         protected Board board;
-        protected PlayerBase[] players;
+        protected IPlayer[] players;
         protected int currentPlayerIndex;
 
-        public GameBase(PlayerBase player1, PlayerBase player2)
+        public GameBase(IPlayer player1, IPlayer player2)
         {
             board = new Board();
-            players = new PlayerBase[] { player1, player2 }; // Assign players
+            players = new IPlayer[] { player1, player2 }; // Use interface
             currentPlayerIndex = 0;
         }
 
@@ -24,18 +24,23 @@ namespace Connect_Four
             while (!gameWon && !isDraw)
             {
                 board.Display();
-                if (players[currentPlayerIndex].Name == "You") // Singleplayer message
+
+                var currentPlayer = players[currentPlayerIndex];
+
+                if (currentPlayer.Name == "You") // Singleplayer message
                 {
-                    Console.WriteLine($"Your turn ({players[currentPlayerIndex].Symbol}):");
+                    Console.WriteLine($"Your turn ({currentPlayer.Symbol}):");
                 }
-                else // Multiplayer Message
+                else // Multiplayer message
                 {
-                    Console.WriteLine($"{players[currentPlayerIndex].Name}'s turn ({players[currentPlayerIndex].Symbol}):");
+                    Console.WriteLine($"{currentPlayer.Name}'s turn ({currentPlayer.Symbol}):");
                 }
-                int column = players[currentPlayerIndex].MakeMove(board);
-                if (board.DropPiece(column, players[currentPlayerIndex].Symbol))
+
+                int column = currentPlayer.MakeMove(board);
+
+                if (board.DropPiece(column, currentPlayer.Symbol))
                 {
-                    gameWon = board.CheckWin(players[currentPlayerIndex].Symbol);
+                    gameWon = board.CheckWin(currentPlayer.Symbol);
                     isDraw = board.IsFull();
 
                     if (!gameWon && !isDraw)
@@ -51,18 +56,15 @@ namespace Connect_Four
 
             board.Display();
             if (gameWon)
-                if (players[currentPlayerIndex].Name == "You")
-                {
-                    Console.WriteLine($"{players[currentPlayerIndex].Name} win!");
-                }
-                else
-                {
-                    Console.WriteLine($"{players[currentPlayerIndex].Name} wins!");
-                }
+            {
+                Console.WriteLine($"{players[currentPlayerIndex].Name} wins!");
+            }
             else if (isDraw)
+            {
                 Console.WriteLine("It's a draw!");
+            }
 
-            Console.WriteLine("Game Over! Returning to main menu...");
+            Console.WriteLine("Game Over! \n\nReturning to main menu...");
         }
 
         protected void SwitchPlayer()

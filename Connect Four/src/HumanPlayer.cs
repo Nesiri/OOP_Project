@@ -2,7 +2,6 @@ using System;
 
 namespace Connect_Four
 {
-    // Human player class
     class HumanPlayer : PlayerBase
     {
         public HumanPlayer(string name, char symbol) : base(name, symbol) { }
@@ -14,11 +13,11 @@ namespace Connect_Four
 
             while (!valid)
             {
-                Console.Write($"{Name}, enter column (1-7): "); // NOTE: { Changed to 1-7 for aesthetic reasons }
+                Console.Write($"{Name}, enter column (1-7): ");
                 try
                 {
                     string input = Console.ReadLine();
-                    column = int.Parse(input) - 1; // Convert to 0-based index to account for the change above
+                    column = int.Parse(input) - 1; // Convert to 0-based index
 
                     if (column < 0 || column >= Board.Columns)
                     {
