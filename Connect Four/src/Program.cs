@@ -1,7 +1,12 @@
 ﻿using System;
 
+// Team: Softwerewolves                        - This is terrible I know
+// Developers: Nesru Abbamilki, Ollie Howes
+
+
 namespace Connect_Four
 {
+    // Final game setup - entry point
     class Program
     {
         static void Main()

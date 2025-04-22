@@ -1,5 +1,7 @@
 using System;
 
+
+
 namespace Connect_Four
 {
     // Game controller base
@@ -12,7 +14,7 @@ namespace Connect_Four
         public GameBase(IPlayer player1, IPlayer player2)
         {
             board = new Board();
-            players = new IPlayer[] { player1, player2 }; // Use interface
+            players = new IPlayer[] { player1, player2 }; // Use interface to assign players.
             currentPlayerIndex = 0;
         }
 
